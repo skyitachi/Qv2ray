@@ -34,7 +34,7 @@ class PreferencesWindow
         if (command == "open")
         {
             const auto c = commands.takeFirst();
-            tabWidget->setCurrentIndex(indexMap[c]);
+            stackedWidget->setCurrentIndex(indexMap[c]);
         }
     }
 
@@ -122,6 +122,8 @@ class PreferencesWindow
     void on_fixedAutoConnectRB_clicked();
     void on_latencyTCPingRB_clicked();
     void on_latencyICMPingRB_clicked();
+
+    void on_listWidget_currentRowChanged(int currentRow);
 
   private:
     //

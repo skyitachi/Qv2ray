@@ -1139,3 +1139,8 @@ void PreferencesWindow::on_latencyICMPingRB_clicked()
     latencyTCPingRB->setChecked(false);
 #endif
 }
+
+void PreferencesWindow::on_listWidget_currentRowChanged(int currentRow)
+{
+    stackedWidget->setCurrentIndex(currentRow);
+}
