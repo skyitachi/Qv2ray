@@ -33,7 +33,7 @@
    <item row="0" column="0">
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>0</number>
+      <number>5</number>
      </property>
      <widget class="QWidget" name="tabWidgetPage1">
       <attribute name="title">
@@ -728,8 +728,8 @@ Custom DNS Settings</string>
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>818</width>
-            <height>520</height>
+            <width>824</width>
+            <height>518</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_2">

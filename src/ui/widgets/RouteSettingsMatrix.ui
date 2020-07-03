@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>582</width>
+    <width>595</width>
     <height>404</height>
    </rect>
   </property>
@@ -160,6 +160,13 @@
        </property>
        <property name="arrowType">
         <enum>Qt::NoArrow</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="importOnlineSchemeBtn">
+       <property name="text">
+        <string>Online Scheme</string>
        </property>
       </widget>
      </item>
